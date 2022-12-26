@@ -1,0 +1,255 @@
+#hero{
+    /* height: 100vh; */
+    padding: 0 20%;
+    background-color: #ffffff;
+}
+
+.main-heading{
+    font-family: Unbounded;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-heading-span{
+    font-weight: 500;
+    font-size:0.9rem;
+}
+
+.nitlogo-image{
+    max-height:200px;
+}
+
+.hero-flex-container{
+    margin-top: 100px;
+
+    display:flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+
+.hero-desc{
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hero-text{
+    max-width: 550px;
+}
+.primary-btn{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-family: Unbounded;
+    font-weight: 600;
+    font-size: 0.75rem;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.primary-btn2{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-family: Unbounded;
+    font-weight: 600;
+    font-size: 0.75rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#aboutus{
+    /* height: 100vh; */
+    padding: 0 20%;
+    background-color:#000;
+    color:#fff
+}
+
+.section-heading{
+    font-family: Unbounded;
+    padding-top:10px;
+    font-size:2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom:20px;
+}
+.aboutus-desc{
+        text-align: justify;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-bottom: 30px;
+}
+
+.btn-container{
+    display:flex;
+    justify-content: center;    
+    /* padding-bottom: 30px; */
+}
+
+#events{
+    /* height: 100vh; */
+    padding: 0 20%;
+    background-color: #ffffff;  
+}
+
+.event-container{
+    margin-top:30px;
+
+    border: 2px solid black;
+    background-color: black;
+    color:white;
+    border-radius: 8px;
+    padding:20px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-container p{
+    font-family: Unbounded;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.form-container{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.form-container h4{
+        
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.input-email{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 300px;
+}
+#members{
+    min-height: 100vh;
+    padding: 0 20%;
+    background-color: #000;
+    color: white;
+}
+
+.members-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:20px;
+    margin-bottom:20px;
+    margin-top:40px;
+}
+
+.member-card{
+    background-color: #0a0a0a;
+    height: 320px;
+    border-radius: 8px;
+    width:150px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.member-card h3{
+    font-family: Unbounded;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.member-card p{
+    font-family: Roboto;
+    font-size: 0.8rem;
+    font-weight: 400;  
+    color:#c5c2c2; 
+}
+.member-photo{
+    margin-top:30px;
+    margin-bottom:30px;
+
+    width: 120px;
+    height:120px;
+    border-radius: 1000px;
+    border: 5px solid black;
+    object-fit: cover;
+}
+
+section{
+    min-height:100vh;
+}
+
+@media screen and (max-width:480px) {
+    .nitlogo-image{
+        max-height:100px;
+        align-self: center;
+    }
+    .mob-center{
+        display: flex;
+        justify-content: center;
+    }
+    .main-heading{
+        font-size: 1.2rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .main-heading-span{
+        font-weight: 500;
+        font-size:0.9rem;
+    }
+    .hero-flex-container{
+        margin-top: 50px;
+        display:block;
+    }
+    .primary-btn{
+        align-self: center;
+    }
+    .section-heading{
+        font-size:1.75rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom:20px;
+    }
+    .btn-container{
+        padding-bottom: 60px;
+       }
+    .event-container p{
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding:20px;
+    }
+    .form-container{
+        display: block;
+    }
+    .form-container input{
+       width: 100%;
+       margin-top: 20px;
+    }
+    .form-container button{
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+         margin-top: 20px;
+
+     }
+     .flexor{
+        display: block;
+     }
+     section,#hero, #aboutus, #events, #members{
+        padding: 0 15%;
+     }
+}

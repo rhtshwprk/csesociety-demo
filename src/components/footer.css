@@ -1,0 +1,40 @@
+footer{
+    padding: 0 ;
+    background-color: #000;
+    color:#fff;
+}
+
+.footer-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding: 20px;
+}
+
+footer p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer-col{
+    font-family: Unbounded;
+    text-align: center;
+    min-width:200px;
+    margin-bottom:20px;
+}
+.footer-col h3{
+    margin-top:14px;
+    margin-bottom:30px;
+    font-size: 1.25rem;
+}
+
+.footer-col p{
+    font-family: Roboto;
+    font-size: 1rem;
+}
+.footer-right a{
+    color:white;
+    text-decoration: none;
+}

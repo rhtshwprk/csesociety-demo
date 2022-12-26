@@ -1,0 +1,35 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:5px;
+    align-items: stretch;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card{
+    color:"white";
+    border: 2px solid white;
+    border-radius: 8px;
+    padding:10px;   
+    width:200px;
+    }
+
+    .card h4{
+        font-family: Unbounded;
+        font-weight: 600;
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .card p{
+        text-align: left;
+        font-size: 0.9rem;
+        padding-bottom: 10px;
+    }
+
+.black-cards div{
+    
+    border: 2px solid black;
+}
